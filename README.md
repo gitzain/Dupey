@@ -22,7 +22,9 @@ I had a whole bunch of music files from backups and on my hard drive. Many of th
 Download a copy of the "Dupey.py" file to the music folder with the duplicates. The script will search for duplicates in all sub directories.
 
 ### Usage
-TODO: Write usage instructions
+```
+python Dupey.py
+```
 
 ## Contributing
 1. Fork it!
