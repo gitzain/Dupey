@@ -1,5 +1,7 @@
 # Dupey
-Finds identical files in the directory its run from and deleted them.
+Finds identical files in the directory its run from and deleted them. 
+
+This script doesnt rely on files names, it compares files by checking their hash.
 
 ## Table of content
 
@@ -10,19 +12,18 @@ Finds identical files in the directory its run from and deleted them.
     - [Usage](#usage)
 - [Contributing](#contributing)
 - [History](#history)
-- [Credits](#credits)
 - [License](#license)
 
 ## Motivation
-TODO: Describe why this project exists
+I had a whole bunch of music files from backups and on my hard drive. Many of these files were duplicates. I needed a fast way to remove duplicates and thats how this script was born.
 
 ## Screenshots
-TODO: Screenshots of the app
+TODO: This is a commandline tool/script so there really won't be screenshots. I will add some images of the tool run via the commandline.
 
 ## Installation & Usage
 
 ### Installation
-TODO: Describe the installation process
+Download a copy of the "Dupey.py" file to the music folder with the duplicates. The script will search for duplicates in all sub directories.
 
 ### Usage
 TODO: Write usage instructions
@@ -35,11 +36,8 @@ TODO: Write usage instructions
 5. Submit a pull request :D
 
 ## History
-TODO: Write history
-
-## Credits
-TODO: Write credits
+21/06/15: v1 published to github.
 
 ## License
-TODO: Write license
+The MIT License (MIT). Please check the license file for more infromation.
 
