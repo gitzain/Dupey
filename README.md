@@ -6,7 +6,6 @@ This script doesnt rely on files names, it compares files by checking their hash
 ## Table of content
 
 - [Motivation](#motivation)
-- [Screenshots](#screenshots)
 - [Installation & Usage](#installation--usage)
     - [Installation](#installation)
     - [Usage](#usage)
@@ -16,9 +15,6 @@ This script doesnt rely on files names, it compares files by checking their hash
 
 ## Motivation
 I had a whole bunch of music files from backups and on my hard drive. Many of these files were duplicates. I needed a fast way to remove duplicates and thats how this script was born.
-
-## Screenshots
-TODO: This is a commandline tool/script so there really won't be screenshots. I will add some images of the tool run via the commandline.
 
 ## Installation & Usage
 
