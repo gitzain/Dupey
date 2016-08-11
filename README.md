@@ -19,11 +19,11 @@ I had a whole bunch of music files from backups and on my hard drive. Many of th
 ## Installation & Usage
 
 ### Installation
-Download a copy of the "Dupey.py" file to the music folder with the duplicates. The script will search for duplicates in all sub directories.
+Download a copy of the "dupey.py" file to the music folder with the duplicates. The script will search for duplicates in all sub directories.
 
 ### Usage
 ```
-python Dupey.py
+python dupey.py
 ```
 
 ## Contributing
@@ -37,6 +37,4 @@ python Dupey.py
 21/06/15: v1 published to github.
 
 ## License
-Copyright (c) 2015, Zain Khan. All rights reserved.
-
-All code is licensed under The MIT License. Please see 'LICENCE' file for more information.
+See the LICENSE file in this project's directory.
