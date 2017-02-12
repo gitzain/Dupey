@@ -20,12 +20,12 @@ def shouldIDeleteThisFile(fileName):
 	global deleted
 	hash = hashy(fileName)
 	if checkIfAlreadyExists(hash):
-		# os.remove(fileName)
-		# print hash + ' : ' + fileName + ' - Deleted'
+		os.remove(fileName)
+		print hash + ' : ' + fileName + ' - Deleted'
 		deleted += 1
 	else:
 		fileHashes.append(hash)
-		# print hash + ' : ' + fileName + ' - Added to list'
+		print hash + ' : ' + fileName + ' - Added to list'
 
 totalNumberOfFiles = 0
 for (dir, _, files) in os.walk(os.curdir):
