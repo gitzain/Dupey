@@ -1,5 +1,5 @@
 # Dupey
-Finds identical files in the directory its run from and deleted them. 
+Finds identical files in the directory (and all sub-directories) it is run from and deleted them. 
 
 This script doesnt rely on files names, it compares files by checking their hash.
 
