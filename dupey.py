@@ -21,11 +21,11 @@ def shouldIDeleteThisFile(fileName):
 	hash = hashy(fileName)
 	if checkIfAlreadyExists(hash):
 		os.remove(fileName)
-		print hash + ' : ' + fileName + ' - Deleted'
+		print(hash + ' : ' + fileName + ' - Deleted')
 		deleted += 1
 	else:
 		fileHashes.append(hash)
-		print hash + ' : ' + fileName + ' - Added to list'
+		print(hash + ' : ' + fileName + ' - Added to list')
 
 totalNumberOfFiles = 0
 for (dir, _, files) in os.walk(os.curdir):
@@ -34,4 +34,4 @@ for (dir, _, files) in os.walk(os.curdir):
 		totalNumberOfFiles += 1
 		shouldIDeleteThisFile(path)
 
-print 'Finished. ' + str(deleted) + '/' + str(totalNumberOfFiles) + ' files were duplicates. They have been deleted.'
+print('Finished. ' + str(deleted) + '/' + str(totalNumberOfFiles) + ' files were duplicates. They have been deleted.')
