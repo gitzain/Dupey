@@ -1,17 +1,19 @@
-# Dupey
-Finds identical files in the directory (and all sub-directories) it is run from and deleted them. 
+# CloneZapper
+CloneZapper is a Python script that hunts down identical files within a directory and its subdirectories, ruthlessly eliminating them! 
 
 This script doesnt rely on files names, it compares files by checking their hash.
 
 ## Table of content
 
-- [Motivation](#motivation)
-- [Installation & Usage](#installation--usage)
+- [CloneZapper](#clonezapper)
+  - [Table of content](#table-of-content)
+  - [Motivation](#motivation)
+  - [Installation \& Usage](#installation--usage)
     - [Installation](#installation)
     - [Usage](#usage)
-- [Contributing](#contributing)
-- [History](#history)
-- [License](#license)
+  - [Contributing](#contributing)
+  - [History](#history)
+  - [License](#license)
 
 ## Motivation
 I had a whole bunch of music files from backups and on my hard drive. Many of these files were duplicates. I needed a fast way to remove duplicates and thats how this script was born.
@@ -19,11 +21,11 @@ I had a whole bunch of music files from backups and on my hard drive. Many of th
 ## Installation & Usage
 
 ### Installation
-Download a copy of the "dupey.py" file to the music folder with the duplicates. The script will search for duplicates in all sub directories.
+Download a copy of the "clonezapper.py" file to the folder with the duplicates. The script will search for duplicates in the directory and all the subdirectories in that directory.
 
 ### Usage
 ```
-python dupey.py
+python clonezapper.py
 ```
 
 ## Contributing
