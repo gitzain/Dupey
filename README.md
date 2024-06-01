@@ -4,7 +4,6 @@ CloneZapper is a Python script that hunts down identical files within a director
 This script doesnt rely on files names, it compares files by checking their hash.
 
 ## Table of content
-- [Table of content](#table-of-content)
 - [Motivation](#motivation)
 - [Installation \& Usage](#installation--usage)
     - [Installation](#installation)
